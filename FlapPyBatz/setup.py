@@ -15,7 +15,7 @@ py2exe.build_exe.isSystemDLL = isSystemDLL
 sys.argv.append('py2exe')
 
 setup(
-    name =    'Flappy Bird',
+    name =    'Flappy Batz',
     version = '1.0',
     author =  'Sourabh Verma',
     options = {

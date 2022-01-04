@@ -70,7 +70,7 @@ def main():
     pygame.init()
     FPSCLOCK = pygame.time.Clock()
     SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
-    pygame.display.set_caption('Flappy Batzzzz')
+    pygame.display.set_caption('Flappy Batz')
 
     # numbers sprites for score display
     IMAGES['numbers'] = (
@@ -145,7 +145,7 @@ def main():
 
 
 def showWelcomeAnimation():
-    """Shows welcome screen animation of flappy batzz"""
+    """Shows welcome screen animation of flappy batz"""
     # index of player to blit on screen
     playerIndex = 0
     playerIndexGen = cycle([0, 1, 2, 1])
